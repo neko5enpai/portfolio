@@ -1,0 +1,13 @@
+body {
+    max-width: 100%;
+    background-image: url(img/155.jpg);
+}
+
+.hometext h1 {
+    font-size: 40pt;
+}
+
+.hometext {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
