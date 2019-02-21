@@ -1,13 +1,104 @@
 body {
-    max-width: 100%;
-    background-image: url(img/155.jpg);
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
 }
 
-.hometext h1 {
+header {
+    background: linear-gradient(rgba(0,0,100,0.5),rgba(0,0,100,0.5)),url(img/155.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+header h1 {
+    font-size: 48px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 350px;
+    color: #ffffff;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    line-height: 60px;
+}
+
+nav ul {
+    float: right;
+    margin: 0;
+    padding-right: 42px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 16px 32px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+nav.black {
+    background: #000000;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 640px) {
+
+}
+
+
+.logo {
+    height: 48px;
+    float: left;
+    margin: 16px 48px;
+}
+
+.intro {
+    color: #ffffff;
+    text-align: center;
+}
+
+.about-background {
+    background: url(img/75291.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.about {
+    width: 80%;
+    margin: 0 auto;    
+}
+
+.about h1 {
+    font-size: 48px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 300px;
+    color: #ffffff;
+}
+
+.about p {
+    font-size: 18px;
+    line-height: 28px;
+    color: #fff;
+    text-align: justify;
+}
+
+/* .hometext h1 {
     font-size: 40pt;
 }
 
 .hometext {
     font-family: 'Lato', sans-serif;
     font-weight: 700;
-}
+} */
